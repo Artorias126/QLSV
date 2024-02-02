@@ -38,7 +38,7 @@ namespace QLSV.Controllers
             }
             if (!VerifyPassword(request.Password))
             {
-                return Unauthorized("Wrong user or password");
+                return Unauthorized("Not Vaild");
             }
             return Ok("Welcome");
         }
